@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>最简单的菜单</title>
+<style>
+    *{margin: 0;padding: 0;}
+    .moyu ul a{font-family: '微软雅黑';font-size: 14px;color: #333;text-decoration: none;}
+    .moyu ul a:hover{color: #000;text-decoration: none;}
+    .moyu ul li{width: 100px;height: 35px;line-height: 35px;text-align: center;position: relative;}
+    .moyu ul li:hover{background: #c1c1c1;}
+    .moyu ul{width: 100px;height: auto;position: absolute;background: #DADADA;list-style: none;}
+
+    .moyu ul.nav2{left: 99px;top: 0;display: none;}
+    .moyu ul.nav3{left: 99px;top: 0;display: none;}
+    .moyu .nav1 .li1:hover ul.nav2{display: block;background: #c1c1c1;}
+    .moyu .nav2 .li2:hover ul.nav3{display: block;background: #c1c1c1;}
+	.moyu .nav2 ,.moyu .nav2 li:hover {background:#ccc;}
+</style>
+</head>
+<body>
+<!--代码部分begin-->
+<div class="moyu">
+<ul class="nav1">
+    <li class="li1"><a href="#">一级导航</a>
+        <ul class="nav2">
+            <li class="li2"><a href="#">二级导航</a></li>
+            <li class="li2"><a href="#">二级导航</a>
+                <ul class="nav3">
+                    <li class="li3"><a href="#">三级导航</a></li>
+                    <li class="li3"><a href="#">三级导航</a></li>
+                    <li class="li3"><a href="#">三级导航</a></li>
+                    <li class="li3"><a href="#">三级导航</a></li>
+                </ul>
+            </li>
+            <li class="li2"><a href="#">二级导航</a></li>
+            <li class="li2"><a href="#">二级导航</a></li>
+        </ul>
+    </li>
+    <li class="li1"><a href="#">一级导航</a></li>
+    <li class="li1"><a href="#">一级导航</a></li>
+    <li class="li1"><a href="#">一级导航</a></li>
+    <li class="li1"><a href="#">一级导航</a></li>
+    <li class="li1"><a href="#">一级导航</a></li>
+</ul>
+</div>
+<!--代码部分end-->
+</body>
+</html>
