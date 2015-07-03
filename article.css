@@ -1,0 +1,36 @@
+@charset "utf-8";
+/** 清除内外边距**/
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, div,/* 结构元素 */ dl, dt, dd, ul, ol, li,/* 列表元素 */ form, fieldset, legend, button, input, textarea, option, select,/* 表单元素 */ pre,/* 文本格式元素 */ tr, td, th/* 表格元素 */
+img ,span{ margin:0; padding:0; }
+body { font-family: simhei, Arial, Helvetica; font-size:12px; }
+img { border:none;list-style-type:none; }
+ul,ol { list-style:none; }
+input, select, textarea { outline:none; }
+textarea { resize:none; }
+a, a:hover { text-decoration:none; outline:none;}
+table { border-collapse:collapse; } /*单元格间隙合并*/
+.clear { clear:both; }
+.fl { float: left; }
+.fr { float: right; }
+.image_fl { float: left; }
+.image_fr { float: right; }
+
+
+/******************/
+h1 {font-size:12px;}
+
+/* GitHub stylesheet for MarkdownPad (http://markdownpad.com) */
+/* Author: Nicolas Hery - http://nicolashery.com */
+/* Version: b13fe65ca28d2e568c6ed5d7f06581183df8f2ff */
+/* Source: https://github.com/nicolahery/markdownpad-github */
+
+/* RESET
+=============================================================================*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+h1 {}
