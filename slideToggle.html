@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>keyframes css3</title>
+
+<style type="text/css">
+.demo {background:url(show.gif) 0px 0px no-repeat;width:43px;height:43px;position:absolute;right:0;top:0;z-index:1;}
+.show {position:absolute;right:0;top:0;z-index:0;background:#ccc;font-size:14px/20px;width:150px;text-align:center;display:none;}
+.active {background-position:0 -43px;}
+</style>
+<script src="http://cdn.bootcss.com/jquery/2.1.4/jquery.js"></script>
+<script type="text/javascript">
+
+$(function(){
+$(".demo").click(function(){
+
+	$(".show").slideToggle();
+	$(this).toggleClass("active");
+	})	
+	
+});
+</script>
+</head>
+
+<body>
+
+<div class="demo"></div>
+<div class="show">
+<p>喜闻乐见</p>
+<p>喜闻乐见</p>
+<p>喜闻乐见</p>
+<p>喜闻乐见</p>
+<p>喜闻乐见</p>
+<p>喜闻乐见</p>
+<p>喜闻乐见</p>
+<p>喜闻乐见</p>
+<p>喜闻乐见</p>
+<p>喜闻乐见</p>
+<p>喜闻乐见</p>
+<p>喜闻乐见</p>
+</div>
+</body>
+</html>
