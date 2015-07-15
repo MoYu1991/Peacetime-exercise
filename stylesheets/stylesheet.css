@@ -14,7 +14,7 @@ a {
   text-decoration: none; }
   a:hover {
     text-decoration: underline; }
-
+ol li, ul li {margin-bottom:20px;}
 .btn {
   display: inline-block;
   margin-bottom: 1rem;
@@ -170,6 +170,7 @@ a {
 .main-content blockquote {
   padding: 0 1rem;
   margin-left: 0;
+  margin-right:0;
   color: #819198;
   border-left: 0.3rem solid #dce6f0; }
   .main-content blockquote > :first-child {
